@@ -9,7 +9,8 @@ module.exports = {
             id: uuid(),
             userId: req.userId,
             date: new Date().toISOString().slice(0, 19).replace('T', ' '),
-            appoinmentDate: req.body.date
+            appoinmentDate: req.body.date,
+	    name : req.body.name
         } 
         appoinmentRepository.save(newAppoinment, (databaseSavingError, responseFromDatabase) => { 
             if (databaseSavingError)
