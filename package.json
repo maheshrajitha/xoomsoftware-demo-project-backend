@@ -1,0 +1,27 @@
+{
+  "name": "xoomsoftware-demo-project-backend",
+  "version": "1.0.0",
+  "description": "sample backend for demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maheshrajitha/xoomsoftware-demo-project-backend.git"
+  },
+  "author": "maheshrajitha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maheshrajitha/xoomsoftware-demo-project-backend/issues"
+  },
+  "homepage": "https://github.com/maheshrajitha/xoomsoftware-demo-project-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "uuid": "^3.4.0"
+  }
+}
